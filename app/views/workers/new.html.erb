@@ -1,0 +1,14 @@
+<h1> Create a new worker </h1>
+<hr>
+
+<h2>
+	<%= simple_form_for @worker do |f| %> 
+		
+		<%= f.input :name %>
+
+		<%= f.input :position %>
+
+		<%= f.submit "Add a new worker" %>
+
+	<% end %>
+</h2>
