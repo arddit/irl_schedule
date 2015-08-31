@@ -28,7 +28,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Unicorn as the app server
 # gem 'unicorn'
 gem 'pg', '0.17.1'
-
+gem 'rails_12factor', '0.0.2'
 gem 'simple_form'
 
 # Use Capistrano for deployment
