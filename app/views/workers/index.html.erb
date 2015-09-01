@@ -1,0 +1,9 @@
+<h1>All workers</h1> 
+<hr>
+
+<% @workers.each do |worker| %>
+	<%= render worker %> 
+	<hr>
+<% end %>
+
+<%= will_paginate %>

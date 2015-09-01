@@ -30,6 +30,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'pg', '0.17.1'
 gem 'rails_12factor', '0.0.2'
 gem 'simple_form'
+gem 'paperclip', '4.3.0'
+gem 'will_paginate', '3.0.7'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
